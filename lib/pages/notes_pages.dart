@@ -8,8 +8,30 @@ class NotesPage extends StatefulWidget{
 }
 
 class _NotesPageState extends State<NotesPage> {
+
+//----UI Related---- 
+  //create a note
+ void createNote() {
+
+ }
+
+  //read notes
+
+
+  //update notes
+
+
+  //delete notes
+
+
   @override
   Widget build(BuildContext context) {
-   return const Scaffold();
+   return Scaffold(
+    appBar: AppBar(title: const Text('Notes')),
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {},
+      child: const Icon(Icons.add),
+      ),
+   );
   }
 }
